@@ -27,12 +27,18 @@ int main() {
 
      if(doors == "open the pod doors")
      cout << "then the cat will get out" << endl;
+else
+cout << "open the pod what" << endl;
+     
      cin.ignore();
      cout << "ask me anything but," << endl;
      cin.ignore();
-     cout << "make sure there is no capitals and it is spelled right" << endl;
-     
+     cout << "make sure there is no capitals and it is spelled right:" << endl;
+    
      string oneq;
+     
+     getline(cin,oneq);
+   
      
      if(oneq == "hello")
      cout << "hi" << endl;
@@ -55,7 +61,7 @@ int main() {
      else if(oneq == "whats your favorite color")
      cout << "purple" << endl;
      
-     else if(oneq == "whats 9+10")
+     else if(oneq == "whats 9 + 10")
      cout << "1738 becuase 38-17 = 21" << endl;
      
      else if(oneq == "are you sure")
@@ -65,7 +71,7 @@ int main() {
      cout << "burrito" << endl;
      
      else if(oneq == "burrito")
-     cout << "taco" < endl;
+     cout << "taco" << endl;
      
      else if(oneq == "burritos")
      cout << "tacos" << endl;
@@ -76,6 +82,68 @@ int main() {
      else if(oneq == "taco cat")
      cout << "thats a palendrone" << endl;
      
+     else if(oneq == "sup")
+     cout << "hello" << endl;
+     
+     else if(oneq == "reindeer")
+     cout << "Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, and Blitzen" << endl;
+else 
+cout << "I don't know" << endl;
+
+     string onew;
+     
+     getline(cin,oneq);
+   
+     
+     if(onew == "hello")
+     cout << "hi" << endl;
+    
+     else if(onew == "hi")
+     cout << "hello" << endl;
+     
+     else if(onew == "what are those")
+     cout << "I dont't were shoes" << endl;
+    
+     else if(onew == "deez nuts")
+     cout << "gotty" << endl;
+    
+     else if(onew == "orange rythems with pikle")
+     cout << "Yes it does" << endl;
+     
+     else if(onew == "who are you")
+     cout << "a computer" << endl;
+    
+     else if(onew== "whats your favorite color")
+     cout << "purple" << endl;
+     
+     else if(onew == "whats 9 + 10")
+     cout << "1738 becuase 38-17 = 21" << endl;
+     
+     else if(onew == "are you sure")
+     cout << "yes" << endl;
+     
+     else if(onew == "taco")
+     cout << "burrito" << endl;
+     
+     else if(onew == "burrito")
+     cout << "taco" << endl;
+     
+     else if(onew == "burritos")
+     cout << "tacos" << endl;
+     
+     else if(onew == "tacos")
+     cout << "taco cat spelled backwards is taco cat" << endl;
+     
+     else if(onew == "taco cat")
+     cout << "thats a palendrone" << endl;
+     
+     else if(onew == "sup")
+     cout << "hello" << endl;
+     
+     else if(onew == "reindeer")
+     cout << "Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, and Blitzen" << endl;
+else 
+cout << "I don't know" << endl;
      
      
 }
