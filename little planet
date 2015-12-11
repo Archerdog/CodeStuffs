@@ -1,0 +1,29 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+   
+   string story
+   getline(cin,story);
+   if(story == "story")
+     cout << "there once was a happy planet" << endl;
+     
+  
+    cout << "                        ,,,,,," <<
+                              "  o# 9MMHb':'-,o,"  <<
+                            "  .oH:HH$' -' ' -*R&o," <<
+                           " dMMM*""'`'      .oMMHM?." <<
+                          ",MMM           HLbd< ?&H\ " << 
+                         ".:MH .-\          ` MM  MM&b" <<
+                        ". -*H    -        &MMMMMMMMMH:" << 
+                    "    .    dboo        MMMMMMMMMMMM." << 
+                     "   .   dMMMMMMb      *MMMMMMMMMP." <<
+                      "  .    MMMMMMMP        *MMMMMP ." <<
+                       "      `#MMMMM           MM6P ," << 
+                        "   -  `MMMP           HM*`, " <<
+                    "      '    :MM             .- ," << 
+                         "  '.   `#?..  .       ..'" <<
+                           "   -.   .         .-" <<
+                             "   ''-.oo,oo.-'' " << endl;
+}
